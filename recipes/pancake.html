@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -113,7 +114,43 @@
                 Enjoy your delicious breakfast!
             </p>
         </section>
+<section>
+            <h2>Leave Feedback</h2>
+            <p>Did you try this recipe? Let us know how your pancakes turned out!</p>
 
+            <form action="#" method="POST">
+                <div>
+                    <label for="name">Your Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="rating">Rating:</label><br>
+                    <select id="rating" name="rating">
+                        <option value="5">5 - Amazing!</option>
+                        <option value="4">4 - Very Good</option>
+                        <option value="3">3 - Good</option>
+                        <option value="2">2 - Fair</option>
+                        <option value="1">1 - Needs Improvement</option>
+                    </select>
+                </div>
+                <br>
+
+                <div>
+                    <label for="comments">Your Comments:</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Share any toppings or tips you tried..." required></textarea>
+                </div>
+                <br>
+
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Simple Pancake Recipe</p>
+    </footer>
     </main>
 
     <footer>
